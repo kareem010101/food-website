@@ -38,9 +38,7 @@ body{
     align-items: center;
     margin-left: 10px;
     padding-left: 10px;
-   
-    
-    
+    text-align: center;   
     color: black;
     
 }
@@ -589,4 +587,5 @@ hr{
 .end{
     text-align: center;
 }
+
 
