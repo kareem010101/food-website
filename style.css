@@ -25,9 +25,9 @@ body{
 }
 .navbar-toggler i{
    
-    position: absolute;
-    right: 50px;
-    bottom: 20px;
+    position: relative;
+    left: 320px;
+    bottom: 30px;
 }
 .navbar-toggler span{
     color: #ffa500;
@@ -589,3 +589,4 @@ hr{
 .end{
     text-align: center;
 }
+
