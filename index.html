@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh food delivered fast — explore our menu, gallery, and order online.">
+    <title>Fresh Food — Order Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo">
+                <img src="./image/logo.png" alt="Fresh Food Logo">
+            </a>
+            <button class="navbar-toggler" id="navToggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                    aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- ========== END NAVBAR ========== -->
+
+    <!-- ========== HOME ========== -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="text-home reveal-left">
+                        <div class="men_text">
+                            <h1>Get fresh <span>Food</span> in an Easy Way</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cum ducimus veritatis laboriosam at alias, repudiandae architecto laudantium perferendis inventore aut excepturi provident!</p>
+                        <div class="main_btn">
+                            <a href="#order"><button class="btn-order">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" id="home-image">
+                    <img src="image/main_img.png" alt="Fresh Food Dish" class="reveal-right floating">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== END HOME ========== -->
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 reveal-left">
+                    <img src="image/Food-Plate.png" alt="About Us Food Plate">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="text-about reveal-right">
+                        <h1><span>About</span> Us</h1>
+                        <h3>Why Choose Us?</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perferendis illum,
+                            tenetur dolorum mollitia voluptate, inventore officia unde, similique tempore neque animi.
+                            Mollitia sed velit fuga libero voluptatem magnam dolor? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Saepe quam exercitationem vel placeat similique.
+                        </p>
+                        <a href="#" class="about-btn">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== END ABOUT ========== -->
+
+    <!-- ========== MENU ========== -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h1 class="section-title reveal-bottom">Our <span>Menu</span></h1>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/biryani.webp" alt="Biryani">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Biryani</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$20.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/juse.jpg" alt="Fresh Juice">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Fresh Juice</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$10.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/Hot_dog.jpg" alt="Hot Dog">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Hot Dog</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$15.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/pizza.jpg" alt="Pizza">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Pizza</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$20.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/chocolate_Drink.jpg" alt="Chocolate Drink">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Choco Drink</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$10.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/chocolate.jpg" alt="Chocolate">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Chocolate</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$10.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/pasta.jpg" alt="Pasta">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Pasta</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$15.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="menu-box reveal-bottom">
+                        <div class="menu-image">
+                            <img src="image/lasagna.webp" alt="Lasagna">
+                        </div>
+                        <div class="menu-info">
+                            <h2>Lasagna</h2>
+                            <p>Lorem ipsum dolor adipisicing elit. Hic vel, dolorem ipsam a sed laboriosam nisi.</p>
+                            <h3>$20.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="#order" class="menu-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== END MENU ========== -->
+
+    <!-- ========== GALLERY ========== -->
+    <section class="gallary" id="gallary">
+        <div class="container">
+            <h1 class="section-title reveal-bottom">Our <span>Gallery</span></h1>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_1.jpg" alt="Gallery Food 1">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/pasta.jpg" alt="Gallery Pasta">
+                        <div class="gallery-overlay">
+                            <h3>Pasta</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_6.jpg" alt="Gallery Food 6">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/biryani.webp" alt="Gallery Biryani">
+                        <div class="gallery-overlay">
+                            <h3>Biryani</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_3.jpg" alt="Gallery Food 3">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_4.jpg" alt="Gallery Food 4">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_5.jpg" alt="Gallery Food 5">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 reveal-bottom">
+                    <div class="gallary_image">
+                        <img src="image/gallary_6.jpg" alt="Gallery Food 6b">
+                        <div class="gallery-overlay">
+                            <h3>Food</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#order" class="gallary_btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== END GALLERY ========== -->
+
+    <!-- ========== ORDER ========== -->
+    <section class="order" id="order">
+        <div class="container">
+            <h1 class="section-title reveal-bottom"><span>Order</span> Now</h1>
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 col-md-12 reveal-left">
+                    <div class="order_image">
+                        <img src="image/order_image.png" alt="Order Food">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="form reveal-right">
+                        <form action="#">
+                            <div class="input-group-custom">
+                                <label>Name</label>
+                                <input type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="input-group-custom">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="Your email" required>
+                            </div>
+                            <div class="input-group-custom">
+                                <label>Phone Number</label>
+                                <input type="text" placeholder="Your number">
+                            </div>
+                            <div class="input-group-custom">
+                                <label>Quantity</label>
+                                <input type="text" placeholder="How many orders">
+                            </div>
+                            <div class="input-group-custom">
+                                <label>Your Order</label>
+                                <input type="text" placeholder="Food name">
+                            </div>
+                            <div class="input-group-custom">
+                                <label>Address</label>
+                                <input type="text" placeholder="Your address">
+                            </div>
+                            <a href="#" class="order_btn">Order Now</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== END ORDER ========== -->
+
+    <!-- ========== TEAM ========== -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="team">
+                <h1 class="section-title reveal-bottom">Our <span>Team</span></h1>
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="profile reveal-bottom">
+                            <img src="image/chef2.png" alt="Chef">
+                            <div class="info">
+                                <h2 class="name">Chef Ahmed</h2>
+                                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sunt, quasi non quo architecto.</p>
+                                <div class="team_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="profile reveal-bottom">
+                            <img src="image/chef1.png" alt="Chef">
+                            <div class="info">
+                                <h2 class="name">Chef Sara</h2>
+                                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sunt, quasi non quo architecto.</p>
+                                <div class="team_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="profile reveal-bottom">
+                            <img src="image/chef3.jpg" alt="Chef">
+                            <div class="info">
+                                <h2 class="name">Chef Omar</h2>
+                                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sunt, quasi non quo architecto.</p>
+                                <div class="team_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="profile reveal-bottom">
+                            <img src="image/chef4.jpg" alt="Chef">
+                            <div class="info">
+                                <h2 class="name">Chef Lina</h2>
+                                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sunt, quasi non quo architecto.</p>
+                                <div class="team_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== END TEAM ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="footer_tag">
+                        <h2>Location</h2>
+                        <p>USA</p>
+                        <p>British</p>
+                        <p>Jordan</p>
+                        <p>Egypt</p>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="footer_tag">
+                        <h2>Quick Links</h2>
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="#about">About</a></p>
+                        <p><a href="#menu">Menu</a></p>
+                        <p><a href="#gallary">Gallery</a></p>
+                        <p><a href="#order">Order</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="footer_tag">
+                        <h2>Contact</h2>
+                        <p>+20 01200000000</p>
+                        <p>+94 25 5568456</p>
+                        <p>info@freshfood.com</p>
+                        <p>support@freshfood.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="footer_tag">
+                        <h2>Our Services</h2>
+                        <p>Fast Delivery</p>
+                        <p>Easy Payment</p>
+                        <p>24 x 7 Service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fresh Food. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
